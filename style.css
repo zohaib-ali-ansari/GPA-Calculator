@@ -1,0 +1,129 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-container {
+  width: 35%;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+#sub-container-1 {
+  background-color: #76abae;
+  border-radius: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+
+#theme-changer{
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    cursor: pointer;
+}
+
+#main-heading {
+  color: #31363f;
+  text-align: center;
+}
+
+#sub-container-1 label {
+  font-size: large;
+}
+
+#no-of-courses-field {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 55%;
+  height: 25px;
+}
+
+label {
+  margin-left: 35px;
+  color: white;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 80%;
+  height: 25px;
+  margin-left: 35px;
+}
+
+#no-of-courses-btn {
+  border: none;
+  border-radius: 5px;
+  width: 25%;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+#calculate-btn {
+  border: none;
+  border-radius: 5px;
+  width: 25%;
+  height: 40px;
+  display: none;
+  margin: auto;
+  background-color: #76abae;
+  color: white;
+  cursor: pointer;;
+}
+
+#output-container {
+  width: 30%;
+  height: 200px;
+  background-color: #31363F;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 150px;
+  display: none;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#gpa-text {
+  text-align: center;
+  color: rgb(247, 247, 247);
+}
+
+#gpa {
+  color: #76abae;
+  text-align: center;
+}
+
+#cancel-btn {
+  border-radius: 10px;
+  border: none;
+  width: 35%;
+  height: 20%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #76abae;
+  margin-left: 32%;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  #main-container {
+    width: 400px;
+  }
+  #output-container{
+    width: 300px;
+  }
+}
